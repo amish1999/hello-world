@@ -18,22 +18,11 @@
     		}
     		int i=0;
     		int j=0,r=0;
-    		while(i<N)
-    		{
-    			x^=tab[i];
-    			if(x==0)
-    			{
-    				r+=i-j;
-    				j++;
-    				i=j+1;
- 
-    				x=tab[j];
-    			}
-    			else
-    			{	
-    				i++;				
-    			}
-    		}
+    		// include code update here
+            
+            
+            
+            //
  
     		cout<<r<<endl;
     	}
