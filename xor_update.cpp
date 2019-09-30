@@ -19,7 +19,20 @@
     		int i=0;
     		int j=0,r=0;
     		// include code update here
-            
+            while(i<N)
+    {
+    x^=tab[i];
+    if(x==0)
+    {
+    r+=i-j;
+    j++;
+    i=j+1;
+ 
+    x=tab[j];
+    }
+    else
+    {
+    i++;
             
             
             //
